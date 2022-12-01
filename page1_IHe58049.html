@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ilich">
+    <title>Project</title>
+    <link rel="stylesheet" href="css/page1_IHe58049.css">
+    <link rel="stylesheet" href="css/CommonStructure_IHe58049.css">
+    <script src="script/CommunColor_IHe58049.js"></script>
+    <script src="script/page1_IHe58049.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="page2_IHe58049.html">Imbursa Aquarium</a></li>
+                <li><a href="page3_IHe58049.html">Video Games</a></li>
+                <li><a href="page4_IHe58049.html">Motivation</a></li>
+                <li><a href="page5_IHe58049.html">Chichen-Itza</a></li>
+            </ul>
+        </nav> <br>
+        <div class="C1"></div>
+        <figcaption>
+            <p><em>(Rosen, 2017)</em></p>
+        </figcaption>
+    </header>
+
+    <article>
+        <section>
+            <div>
+                <h1 class="essay_Title">INTRODUCTION</h1>
+                <P class="essay_Content">
+                    Hello everyone. This web page is designed 
+                    to express only a few of the topics that I 
+                    like to talk about the most and only two of 
+                    the countless places that I have loved the 
+                    most in my own country, Mexico. Additionally, 
+                    this web page also focuses on two of the topics 
+                    that I like to talk about and even spend time 
+                    with, and which I am sure most of you also 
+                    like and which today, regardless of age, many 
+                    people practice, video games and 
+                    personal motivation. <br> <br>
+                    However, despite my passion 
+                    for these and even more topics that are not 
+                    mentioned here, this page is designed to focus 
+                    only on very basic information of each topic 
+                    mentioned, as this project would simply never end.
+                     Despite the befor mentioned, I sincerely hope 
+                     that this information is useful to you in 
+                     some aspect of your lives.   <br> <br>
+                </p>
+            </div>   
+        </section>
+    </article>
+
+  
+    <article>
+        <section id="Grid">
+            <div id="grid-1">Imbursa Aquarium</div>
+            <div id="grid-2">Video Games</div>
+            <div id="grid-3">Motivation</div>
+            <div id="grid-4">Chichen-Itza</div>
+        </section>
+    </article>
+
+    <h1 class="essay_Title">YOUR TURN</h1>
+        <P class="essay_Content">
+            I am about to share with you some of
+            my favorite topics in life. Now I would
+            love if you shared some of yours with me
+            while experiencing some basics of HTML, CSS,
+            and JavaScript's posibilities<br> <br>
+        </p>
+
+        <section>
+            <form name="myform" action='' method="get">
+                <fieldset>
+                    <legend>User Video Game Preferences</legend>
+                    <div id="info_section">
+                        <label>Personal Info</label>
+                        <span class="grid1">
+                            <div>
+                                <label for="FirstName">First Name</label>
+                                <input type="text" name="personalInfo" id="FirstName" maxlength="10">
+                                </div>     
+                            <div>
+                                <label for="LastName">Last Name</label>
+                                <input type="text" name="personalInfo" id="LastName" maxlength="10" >
+                            </div>  
+                            <div>
+                                <label for="Age">Age</label>
+                                <input type="number" name="personalInfo" id="Age" maxlength="2">
+                            </div>   
+                            <div>
+                                <label for="Country">Country</label>
+                                <input type="text" name="personalInfo" id="Country" maxlength="10">
+                            </div>    
+                        </span>  
+                    </div>
+                    
+                    <div id="console_section">
+                        <label>Prefered Console</label>
+                        <span class="grid1">
+                            <div>X-Box Series<input type="radio" name="consoles" id="Xbox" value="Xbox"></div>
+                            <div>PS4 / PS5<input type="radio" name="consoles" id="PS" value="PS4 / PS5"></div>
+                            <div>Switch<input type="radio" name="consoles" id="Switch" value="Switch"></div>
+                        </span>
+                    </div>
+
+                    <div id="category_section">
+                    <label>Categories</label>
+                        <span class="grid2">
+                            <div>Action-Adventure</div><div><input type="checkbox" name="categories" id="Action-Adventure" value="Action-Adventure"></div>
+                            <div>Horror</div><div><input type="checkbox" name="categories" id="Horror" value="Horror"></div>
+                            <div>Open-world</div><div><input type="checkbox" name="categories" id="Open-world" value="Open-world"></div>
+                            <div>Simulation</div><div><input type="checkbox" name="categories" id="Simulation" value="Simulation"></div>
+                            <div>Shooters</div><div><input type="checkbox" name="categories" id="Shooters" value="Shooters"></div>
+                            <div>Puzzles</div><div><input type="checkbox" name="categories" id="Puzzles" value="Puzzles"></div>
+                            <div>Sports</div><div><input type="checkbox" name="categories" id="Sports" value="Sports"></div>
+                            <div>Strategy</div><div><input type="checkbox" name="categories" id="Strategy" value="Strategy"></div>
+                        </span>
+                    </div>
+                    <div class="submit_button">
+                        <input type="button" name="submit" id="submit" value="Send Data" onclick="processData(this.form)">    
+                    </div>
+                    <div id="result_section">
+                        <label>Results</label>
+
+                        <p id="output"></p>
+                    </div>
+            </fieldset>
+            </form>
+        </section>
+    <hr>
+        <footer>
+            <div class="grid">
+                <div>   
+                    <small><em class="btn">
+                        <input type="button" name="color" id="color" value="Change Color" onclick="ChangeColor()">
+                    </em></small>
+                </div> 
+
+                <div>
+                    <small><em><strong>
+                        <a href="index.html" id="return"> Return to Index</a>
+                    </strong></em></small>
+                </div>
+
+                <div>
+                    <small><em><strong>
+                        Ilich Hermosillo &copy; Douglas College F2022
+                    </strong></em></small> 
+                </div>    
+            </div>   
+        </footer>
+</body>
+</html>

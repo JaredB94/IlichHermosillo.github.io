@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    background-color: rgba(0, 0, 0, 0.47);
+}
+
+body{
+    border: 2px solid rgba(48, 48, 48, 0.414);
+    width: 97%;
+    padding: 10px;
+    margin: auto;
+    min-height: 630px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+/* ESSAY SECTION */
+.essay_Title{
+    font-size: xx-large;
+    color: rgb(236, 167, 38);
+    text-align: center;
+    margin-top: 5%;
+}
+
+.essay_Content{
+    color: wheat;
+    text-align: justify;
+    font-size: large;
+    font-family: sans-serif;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+/* HEADER SECTION (MENU) */
+header nav ul li{
+    text-align: center;
+    font-size: small;
+    overflow: auto;
+    background-color: black;
+    border-bottom: 1px solid rgb(6, 181, 140);
+    float: left;
+    width: 25%;
+    padding: 10px;
+    display: list-item;
+    margin-bottom: 2%;
+}
+
+header nav ul li:hover{
+    background-color: rgb(6, 181, 140);
+}
+
+header nav ul li a{
+    color: aliceblue;
+    display: block;
+    overflow: auto;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header nav ul li a:hover{
+    color: black;
+}
+
+ul{
+    list-style: disc;
+   
+}
+
+/* FIGCAPTION */
+figcaption{
+    color: white;
+    text-align: center;
+}
+
+
+/* FOOTER */
+footer{
+    margin: 1% auto;
+    padding: 5px;
+}
+
+
+footer .grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+}
+
+#return{
+    color:rgb(255, 255, 253);
+    width: 100%;
+    text-align: left;
+}
+
+input{
+    color: wheat;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    text-align: right;
+}
